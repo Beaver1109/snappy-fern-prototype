@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import App from './App';
+import { PasswordGate } from './PasswordGate';
 import { BrowserRouter, Link, NavLink } from 'react-router';
 import {
   DexProvider,
@@ -16,9 +17,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <StrictMode>
     <DexProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/snappy-fern-prototype">
         <DexRouterAdapterProvider adapter={{ Link, NavLink }}>
-          <App />
+          <PasswordGate><App /></PasswordGate>
           <DexNotificationViewport />
           <DexConfirmDialogViewport />
         </DexRouterAdapterProvider>

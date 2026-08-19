@@ -11,6 +11,7 @@ export default defineConfig({
     port: 4300,
     host: 'localhost',
   },
+  base: '/snappy-fern-prototype/',
   plugins: [react(), svgr()],
   build: {
     outDir: './dist',
