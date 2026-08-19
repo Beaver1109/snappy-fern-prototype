@@ -1,0 +1,29 @@
+{
+  "name": "snappy-fern-prototype",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.21.3",
+    "@thryvlabs/dex-react": "1.9.0",
+    "echarts": "^6.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.62.0",
+    "react-router": "^7.12.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.6",
+    "@thryvlabs/dex-mcp": "1.9.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.1.5",
+    "typescript": "~5.7.0",
+    "vite": "^6.3.0",
+    "vite-plugin-svgr": "^4.1.0"
+  }
+}
