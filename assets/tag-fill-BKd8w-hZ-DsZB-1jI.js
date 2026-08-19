@@ -1,0 +1,1 @@
+import{r as e}from"./index-PiFYP43U.js";var r=t=>e.createElement("svg",{height:24,width:24,xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("path",{d:"M11.586 2A2 2 0 0 1 13 2.586l9 9a2 2 0 0 1 0 2.828L14.414 22a2 2 0 0 1-2.828 0l-9-9A2 2 0 0 1 2 11.586V3a1 1 0 0 1 1-1zM7 5a2 2 0 1 0 0 4 2 2 0 0 0 0-4z",fillRule:"evenodd"}));export{r as default};

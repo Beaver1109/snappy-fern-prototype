@@ -1,0 +1,1 @@
+import{r as e}from"./index-PiFYP43U.js";var r=t=>e.createElement("svg",{height:24,width:24,xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("path",{d:"M10 15a5 5 0 1 0-4 2h12a5 5 0 1 0-4-2z",fillRule:"evenodd"}));export{r as default};

@@ -1,1 +1,0 @@
-import{r as e}from"./index-CVRg6kkF.js";var r=t=>e.createElement("svg",{height:24,width:24,xmlns:"http://www.w3.org/2000/svg",...t},e.createElement("path",{d:"M20.5 1.5a2 2 0 0 1 2 2v17a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2v-17a2 2 0 0 1 2-2zm0 2h-17v17h17zM16 11a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2z",fillRule:"evenodd"}));export{r as default};
